@@ -9,4 +9,34 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>Controller</display-name>
+    <servlet-name>Controller</servlet-name>
+    <servlet-class>jp.webschool.javaweb.chapter12.Controller</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Controller</servlet-name>
+    <url-pattern>/Controller</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ResList</display-name>
+    <servlet-name>ResList</servlet-name>
+    <servlet-class>jp.webschool.javaweb.chapter12.ResList</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ResList</servlet-name>
+    <url-pattern>/ResList</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ResBean</display-name>
+    <servlet-name>ResBean</servlet-name>
+    <servlet-class>jp.webschool.javaweb.chapter12.bean.ResBean</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ResBean</servlet-name>
+    <url-pattern>/ResBean</url-pattern>
+  </servlet-mapping>
 </web-app>
